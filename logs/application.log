@@ -1,0 +1,168 @@
+28-07-2021 21:01:47.702 [main] INFO  com.demo.ELK.ElkApplication.logStarting - Starting ElkApplication using Java 13.0.1 on Vulcan with PID 23316 (D:\Git Projects\Others\ELK\ELK\target\classes started by ApoorvTyagi in D:\Git Projects\Others\ELK\ELK)
+28-07-2021 21:01:47.710 [main] INFO  com.demo.ELK.ElkApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+28-07-2021 21:01:48.980 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+28-07-2021 21:01:48.996 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+28-07-2021 21:01:48.996 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+28-07-2021 21:01:48.996 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.50]
+28-07-2021 21:01:49.067 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+28-07-2021 21:01:49.067 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1308 ms
+28-07-2021 21:01:49.743 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+28-07-2021 21:01:49.889 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+28-07-2021 21:01:49.905 [main] INFO  com.demo.ELK.ElkApplication.logStarted - Started ElkApplication in 2.715 seconds (JVM running for 8.529)
+28-07-2021 21:01:59.120 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+28-07-2021 21:01:59.128 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+28-07-2021 21:01:59.128 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 0 ms
+28-07-2021 21:01:59.162 [http-nio-8080-exec-2] INFO  c.demo.ELK.controller.ELKController.helloWorld - Inside Hello World Function
+28-07-2021 21:01:59.162 [http-nio-8080-exec-2] INFO  c.demo.ELK.controller.ELKController.helloWorld - Response => Hello World! Wed Jul 28 21:01:59 IST 2021
+28-07-2021 21:02:01.204 [http-nio-8080-exec-3] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+28-07-2021 21:02:01.204 [http-nio-8080-exec-3] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+28-07-2021 21:02:02.668 [http-nio-8080-exec-4] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Getting Weather Information for ohio
+28-07-2021 21:02:02.678 [http-nio-8080-exec-4] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Final URL => https://goweather.herokuapp.com/weather/ohio
+28-07-2021 21:02:05.434 [http-nio-8080-exec-4] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Response => {"temperature":"+26 °C","wind":"13 km/h","description":"Partly cloudy","forecast":[{"day":"1","temperature":"+26 °C","wind":"11 km/h"},{"day":"2","temperature":"22 °C","wind":"25 km/h"},{"day":"3","temperature":" °C","wind":"24 km/h"}]}
+28-07-2021 21:06:54.294 [main] INFO  com.demo.ELK.ElkApplication.logStarting - Starting ElkApplication using Java 13.0.1 on Vulcan with PID 15912 (D:\Git Projects\Others\ELK\ELK\target\classes started by ApoorvTyagi in D:\Git Projects\Others\ELK\ELK)
+28-07-2021 21:06:54.303 [main] INFO  com.demo.ELK.ElkApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+28-07-2021 21:06:56.730 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+28-07-2021 21:06:56.764 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+28-07-2021 21:06:56.766 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+28-07-2021 21:06:56.767 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.50]
+28-07-2021 21:06:56.917 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+28-07-2021 21:06:56.917 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2504 ms
+28-07-2021 21:06:57.780 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+28-07-2021 21:06:57.941 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+28-07-2021 21:06:57.959 [main] INFO  com.demo.ELK.ElkApplication.logStarted - Started ElkApplication in 4.881 seconds (JVM running for 14.724)
+28-07-2021 21:07:02.436 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+28-07-2021 21:07:02.437 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+28-07-2021 21:07:02.443 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 6 ms
+28-07-2021 21:07:02.509 [http-nio-8080-exec-1] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Getting Weather Information for ohio
+28-07-2021 21:07:02.509 [http-nio-8080-exec-1] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Final URL => https://goweather.herokuapp.com/weather/ohio
+28-07-2021 21:07:04.589 [http-nio-8080-exec-1] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Response => {"temperature":"+26 °C","wind":"13 km/h","description":"Partly cloudy","forecast":[{"day":"1","temperature":"+26 °C","wind":"11 km/h"},{"day":"2","temperature":"22 °C","wind":"25 km/h"},{"day":"3","temperature":" °C","wind":"24 km/h"}]}
+28-07-2021 21:07:06.412 [http-nio-8080-exec-3] INFO  c.demo.ELK.controller.ELKController.helloWorld - Inside Hello World Function
+28-07-2021 21:07:06.412 [http-nio-8080-exec-3] INFO  c.demo.ELK.controller.ELKController.helloWorld - Response => Hello World! Wed Jul 28 21:07:06 IST 2021
+28-07-2021 21:07:07.733 [http-nio-8080-exec-4] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+28-07-2021 21:07:07.733 [http-nio-8080-exec-4] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+28-07-2021 21:09:20.125 [http-nio-8080-exec-7] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+28-07-2021 21:09:20.125 [http-nio-8080-exec-7] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+28-07-2021 21:09:22.092 [http-nio-8080-exec-8] INFO  c.demo.ELK.controller.ELKController.helloWorld - Inside Hello World Function
+28-07-2021 21:09:22.092 [http-nio-8080-exec-8] INFO  c.demo.ELK.controller.ELKController.helloWorld - Response => Hello World! Wed Jul 28 21:09:22 IST 2021
+28-07-2021 21:09:24.133 [http-nio-8080-exec-9] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Getting Weather Information for ohio
+28-07-2021 21:09:24.133 [http-nio-8080-exec-9] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Final URL => https://goweather.herokuapp.com/weather/ohio
+28-07-2021 21:09:25.342 [http-nio-8080-exec-9] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Response => {"temperature":"+26 °C","wind":"13 km/h","description":"Partly cloudy","forecast":[{"day":"1","temperature":"+26 °C","wind":"11 km/h"},{"day":"2","temperature":"22 °C","wind":"25 km/h"},{"day":"3","temperature":" °C","wind":"24 km/h"}]}
+28-07-2021 21:11:24.981 [http-nio-8080-exec-1] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Getting Weather Information for ohio
+28-07-2021 21:11:24.981 [http-nio-8080-exec-1] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Final URL => https://goweather.herokuapp.com/weather/ohio
+28-07-2021 21:11:26.326 [http-nio-8080-exec-1] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Response => {"temperature":"+26 °C","wind":"13 km/h","description":"Partly cloudy","forecast":[{"day":"1","temperature":"+26 °C","wind":"11 km/h"},{"day":"2","temperature":"22 °C","wind":"25 km/h"},{"day":"3","temperature":" °C","wind":"24 km/h"}]}
+28-07-2021 21:11:28.263 [http-nio-8080-exec-3] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+28-07-2021 21:11:28.263 [http-nio-8080-exec-3] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+28-07-2021 21:11:29.790 [http-nio-8080-exec-4] INFO  c.demo.ELK.controller.ELKController.helloWorld - Inside Hello World Function
+28-07-2021 21:11:29.790 [http-nio-8080-exec-4] INFO  c.demo.ELK.controller.ELKController.helloWorld - Response => Hello World! Wed Jul 28 21:11:29 IST 2021
+28-07-2021 21:16:19.709 [http-nio-8080-exec-7] INFO  c.demo.ELK.controller.ELKController.helloWorld - Inside Hello World Function
+28-07-2021 21:16:19.709 [http-nio-8080-exec-7] INFO  c.demo.ELK.controller.ELKController.helloWorld - Response => Hello World! Wed Jul 28 21:16:19 IST 2021
+28-07-2021 21:16:22.103 [http-nio-8080-exec-8] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+28-07-2021 21:16:22.104 [http-nio-8080-exec-8] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+28-07-2021 21:16:24.568 [http-nio-8080-exec-9] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Getting Weather Information for ohio
+28-07-2021 21:16:24.571 [http-nio-8080-exec-9] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Final URL => https://goweather.herokuapp.com/weather/ohio
+28-07-2021 21:16:25.777 [http-nio-8080-exec-9] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Response => {"temperature":"+26 °C","wind":"13 km/h","description":"Partly cloudy","forecast":[{"day":"1","temperature":"+26 °C","wind":"11 km/h"},{"day":"2","temperature":"22 °C","wind":"25 km/h"},{"day":"3","temperature":" °C","wind":"24 km/h"}]}
+28-07-2021 21:17:45.762 [http-nio-8080-exec-1] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Getting Weather Information for ohio
+28-07-2021 21:17:45.762 [http-nio-8080-exec-1] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Final URL => https://goweather.herokuapp.com/weather/ohio
+28-07-2021 21:17:46.995 [http-nio-8080-exec-1] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Response => {"temperature":"+26 °C","wind":"13 km/h","description":"Partly cloudy","forecast":[{"day":"1","temperature":"+26 °C","wind":"11 km/h"},{"day":"2","temperature":"22 °C","wind":"25 km/h"},{"day":"3","temperature":" °C","wind":"24 km/h"}]}
+28-07-2021 21:17:48.764 [http-nio-8080-exec-3] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+28-07-2021 21:17:48.769 [http-nio-8080-exec-3] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+28-07-2021 21:17:50.185 [http-nio-8080-exec-4] INFO  c.demo.ELK.controller.ELKController.helloWorld - Inside Hello World Function
+28-07-2021 21:17:50.186 [http-nio-8080-exec-4] INFO  c.demo.ELK.controller.ELKController.helloWorld - Response => Hello World! Wed Jul 28 21:17:50 IST 2021
+28-07-2021 22:55:46.705 [main] INFO  com.demo.ELK.ElkApplication.logStarting - Starting ElkApplication using Java 13.0.1 on Vulcan with PID 8680 (D:\Git Projects\Others\ELK\ELK\target\classes started by ApoorvTyagi in D:\Git Projects\Others\ELK\ELK)
+28-07-2021 22:55:46.708 [main] INFO  com.demo.ELK.ElkApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+28-07-2021 22:55:48.231 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+28-07-2021 22:55:48.253 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+28-07-2021 22:55:48.254 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+28-07-2021 22:55:48.254 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.50]
+28-07-2021 22:55:48.395 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+28-07-2021 22:55:48.396 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1622 ms
+28-07-2021 22:55:49.262 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+28-07-2021 22:55:49.450 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+28-07-2021 22:55:49.463 [main] INFO  com.demo.ELK.ElkApplication.logStarted - Started ElkApplication in 3.378 seconds (JVM running for 19.641)
+28-07-2021 22:56:14.211 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+28-07-2021 22:56:14.213 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+28-07-2021 22:56:14.214 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+28-07-2021 22:56:14.247 [http-nio-8080-exec-1] INFO  c.demo.ELK.controller.ELKController.helloWorld - Inside Hello World Function
+28-07-2021 22:56:14.248 [http-nio-8080-exec-1] INFO  c.demo.ELK.controller.ELKController.helloWorld - Response => Hello World! Wed Jul 28 22:56:14 IST 2021
+28-07-2021 22:56:16.428 [http-nio-8080-exec-3] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+28-07-2021 22:56:16.429 [http-nio-8080-exec-3] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+28-07-2021 22:56:17.915 [http-nio-8080-exec-4] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Getting Weather Information for ohio
+28-07-2021 22:56:17.916 [http-nio-8080-exec-4] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Final URL => https://goweather.herokuapp.com/weather/ohio
+28-07-2021 22:56:20.781 [http-nio-8080-exec-4] INFO  com.demo.ELK.services.RestService.getPostsPlainJSON - Response => {"temperature":"+28 °C","wind":"13 km/h","description":"Partly cloudy","forecast":[{"day":"1","temperature":"+26 °C","wind":"12 km/h"},{"day":"2","temperature":"+23 °C","wind":"15 km/h"},{"day":"3","temperature":"19 °C","wind":"24 km/h"}]}
+28-07-2021 23:10:21.533 [main] INFO  com.demo.ELK.ElkApplication.logStarting - Starting ElkApplication using Java 13.0.1 on Vulcan with PID 19932 (D:\Git Projects\Others\ELK\ELK\target\classes started by ApoorvTyagi in D:\Git Projects\Others\ELK\ELK)
+28-07-2021 23:10:21.536 [main] INFO  com.demo.ELK.ElkApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+28-07-2021 23:10:22.679 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+28-07-2021 23:10:22.693 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+28-07-2021 23:10:22.694 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+28-07-2021 23:10:22.694 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.50]
+28-07-2021 23:10:22.768 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+28-07-2021 23:10:22.769 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1186 ms
+28-07-2021 23:10:23.391 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+28-07-2021 23:10:23.562 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+28-07-2021 23:10:23.574 [main] INFO  com.demo.ELK.ElkApplication.logStarted - Started ElkApplication in 2.536 seconds (JVM running for 9.57)
+28-07-2021 23:10:34.888 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+28-07-2021 23:10:34.890 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+28-07-2021 23:10:34.892 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+28-07-2021 23:10:34.926 [http-nio-8080-exec-1] INFO  c.demo.ELK.controller.ELKController.helloWorld - Inside Hello World Function
+28-07-2021 23:10:34.928 [http-nio-8080-exec-1] INFO  c.demo.ELK.controller.ELKController.helloWorld - Response => Hello World! Wed Jul 28 23:10:34 IST 2021
+28-07-2021 23:10:36.576 [http-nio-8080-exec-3] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+28-07-2021 23:10:36.576 [http-nio-8080-exec-3] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+29-07-2021 20:50:09.120 [main] INFO  com.demo.ELK.ElkApplication.logStarting - Starting ElkApplication using Java 13.0.1 on Vulcan with PID 24460 (D:\Git Projects\Others\ELK Logs Monitoring\ELK\target\classes started by ApoorvTyagi in D:\Git Projects\Others\ELK Logs Monitoring\ELK)
+29-07-2021 20:50:09.126 [main] INFO  com.demo.ELK.ElkApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+29-07-2021 20:50:11.279 [main] INFO  com.demo.ELK.ElkApplication.logStarted - Started ElkApplication in 2.936 seconds (JVM running for 24.483)
+29-07-2021 20:50:47.921 [http-nio-8080-exec-2] INFO  c.demo.ELK.controller.ELKController.helloWorld - Inside Hello World Function
+29-07-2021 20:50:47.922 [http-nio-8080-exec-2] INFO  c.demo.ELK.controller.ELKController.helloWorld - Response => Hello World! Thu Jul 29 20:50:47 IST 2021
+29-07-2021 20:50:54.118 [http-nio-8080-exec-4] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+29-07-2021 20:50:54.119 [http-nio-8080-exec-4] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+29-07-2021 20:50:54.123 [http-nio-8080-exec-4] ERROR com.demo.ELK.services.ELKService.getAllFoodDetails - Error occurred in reading JSON file
+29-07-2021 20:50:57.712 [http-nio-8080-exec-5] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+29-07-2021 20:50:57.712 [http-nio-8080-exec-5] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+29-07-2021 20:50:57.713 [http-nio-8080-exec-5] ERROR com.demo.ELK.services.ELKService.getAllFoodDetails - Error occurred in reading JSON file
+29-07-2021 20:54:49.016 [http-nio-8080-exec-9] INFO  c.demo.ELK.controller.ELKController.helloWorld - Inside Hello World Function
+29-07-2021 20:54:49.016 [http-nio-8080-exec-9] INFO  c.demo.ELK.controller.ELKController.helloWorld - Response => Hello World! Thu Jul 29 20:54:49 IST 2021
+29-07-2021 20:54:50.567 [http-nio-8080-exec-10] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+29-07-2021 20:54:50.568 [http-nio-8080-exec-10] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+29-07-2021 20:54:50.569 [http-nio-8080-exec-10] ERROR com.demo.ELK.services.ELKService.getAllFoodDetails - Error occurred in reading JSON file
+29-07-2021 20:57:33.400 [http-nio-8080-exec-3] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+29-07-2021 20:57:33.400 [http-nio-8080-exec-3] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+29-07-2021 20:57:33.403 [http-nio-8080-exec-3] ERROR com.demo.ELK.services.ELKService.getAllFoodDetails - Error occurred in reading JSON file
+29-07-2021 20:57:39.992 [http-nio-8080-exec-5] INFO  c.demo.ELK.controller.ELKController.helloWorld - Inside Hello World Function
+29-07-2021 20:57:39.992 [http-nio-8080-exec-5] INFO  c.demo.ELK.controller.ELKController.helloWorld - Response => Hello World! Thu Jul 29 20:57:39 IST 2021
+30-07-2021 22:15:09.723 [main] INFO  com.demo.ELK.ElkApplication.logStarting - Starting ElkApplication using Java 13.0.1 on Vulcan with PID 15584 (D:\Git Projects\Others\ELK Logs Monitoring\ELK\target\classes started by ApoorvTyagi in D:\Git Projects\Others\ELK Logs Monitoring\ELK)
+30-07-2021 22:15:09.723 [main] INFO  com.demo.ELK.ElkApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+30-07-2021 22:15:11.660 [main] INFO  com.demo.ELK.ElkApplication.logStarted - Started ElkApplication in 2.512 seconds (JVM running for 13.107)
+30-07-2021 22:15:17.201 [http-nio-8080-exec-2] INFO  c.demo.ELK.controller.ELKController.helloWorld - Inside Hello World Function
+30-07-2021 22:15:17.203 [http-nio-8080-exec-2] INFO  c.demo.ELK.controller.ELKController.helloWorld - Response => Hello World! Fri Jul 30 22:15:17 IST 2021
+30-07-2021 22:15:24.263 [http-nio-8080-exec-3] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+30-07-2021 22:15:24.264 [http-nio-8080-exec-3] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+30-07-2021 22:15:24.270 [http-nio-8080-exec-3] ERROR com.demo.ELK.services.ELKService.getAllFoodDetails - Error occurred in reading JSON file
+30-07-2021 22:16:34.903 [main] INFO  com.demo.ELK.ElkApplication.logStarting - Starting ElkApplication using Java 13.0.1 on Vulcan with PID 20884 (D:\Git Projects\Others\ELK Logs Monitoring\ELK\target\classes started by ApoorvTyagi in D:\Git Projects\Others\ELK Logs Monitoring\ELK)
+30-07-2021 22:16:34.903 [main] INFO  com.demo.ELK.ElkApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+30-07-2021 22:16:36.670 [main] INFO  com.demo.ELK.ElkApplication.logStarted - Started ElkApplication in 2.424 seconds (JVM running for 8.833)
+30-07-2021 22:16:56.041 [http-nio-8080-exec-1] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+30-07-2021 22:16:56.043 [http-nio-8080-exec-1] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+30-07-2021 23:32:38.920 [main] INFO  com.demo.ELK.ElkApplication.logStarting - Starting ElkApplication using Java 13.0.1 on Vulcan with PID 18716 (D:\Git Projects\Others\ELK Logs Monitoring\ELK\target\classes started by ApoorvTyagi in D:\Git Projects\Others\ELK Logs Monitoring\ELK)
+30-07-2021 23:32:38.920 [main] INFO  com.demo.ELK.ElkApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+30-07-2021 23:32:40.912 [main] INFO  com.demo.ELK.ElkApplication.logStarted - Started ElkApplication in 2.634 seconds (JVM running for 12.008)
+30-07-2021 23:32:46.564 [http-nio-8080-exec-2] INFO  c.demo.ELK.controller.ELKController.helloWorld - Inside Hello World Function
+30-07-2021 23:32:46.564 [http-nio-8080-exec-2] INFO  c.demo.ELK.controller.ELKController.helloWorld - Response => Hello World! Fri Jul 30 23:32:46 IST 2021
+30-07-2021 23:32:48.594 [http-nio-8080-exec-3] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+30-07-2021 23:32:48.594 [http-nio-8080-exec-3] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+31-07-2021 00:05:59.582 [http-nio-8080-exec-6] INFO  c.demo.ELK.controller.ELKController.helloWorld - Inside Hello World Function
+31-07-2021 00:05:59.667 [http-nio-8080-exec-6] INFO  c.demo.ELK.controller.ELKController.helloWorld - Response => Hello World! Sat Jul 31 00:05:59 IST 2021
+31-07-2021 00:06:05.514 [http-nio-8080-exec-9] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+31-07-2021 00:06:05.514 [http-nio-8080-exec-9] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+31-07-2021 00:08:32.897 [http-nio-8080-exec-2] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+31-07-2021 00:08:32.903 [http-nio-8080-exec-2] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+31-07-2021 00:08:35.289 [http-nio-8080-exec-3] INFO  c.demo.ELK.controller.ELKController.helloWorld - Inside Hello World Function
+31-07-2021 00:08:35.301 [http-nio-8080-exec-3] INFO  c.demo.ELK.controller.ELKController.helloWorld - Response => Hello World! Sat Jul 31 00:08:35 IST 2021
+31-07-2021 00:11:11.942 [http-nio-8080-exec-7] INFO  c.demo.ELK.controller.ELKController.helloWorld - Inside Hello World Function
+31-07-2021 00:11:11.942 [http-nio-8080-exec-7] INFO  c.demo.ELK.controller.ELKController.helloWorld - Response => Hello World! Sat Jul 31 00:11:11 IST 2021
+31-07-2021 00:11:14.209 [http-nio-8080-exec-8] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+31-07-2021 00:11:14.209 [http-nio-8080-exec-8] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+06-08-2021 23:05:02.828 [main] INFO  com.demo.ELK.ElkApplication.logStarting - Starting ElkApplication using Java 13.0.1 on Vulcan with PID 16324 (D:\Git Projects\ELK Logs Monitoring\ELK\target\classes started by ApoorvTyagi in D:\Git Projects\ELK Logs Monitoring\ELK)
+06-08-2021 23:05:02.833 [main] INFO  com.demo.ELK.ElkApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+06-08-2021 23:05:05.880 [main] INFO  com.demo.ELK.ElkApplication.logStarted - Started ElkApplication in 3.857 seconds (JVM running for 20.955)
+06-08-2021 23:05:34.469 [http-nio-8080-exec-1] INFO  c.demo.ELK.controller.ELKController.foodDetails - Inside Food Detail Function
+06-08-2021 23:05:34.470 [http-nio-8080-exec-1] INFO  com.demo.ELK.services.ELKService.getAllFoodDetails - Fetching ALL food details...
+06-08-2021 23:05:34.476 [http-nio-8080-exec-1] ERROR com.demo.ELK.services.ELKService.getAllFoodDetails - Error occurred in reading JSON file

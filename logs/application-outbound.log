@@ -1,0 +1,41 @@
+28-07-2021 23:10:22.679 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+28-07-2021 23:10:22.693 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+28-07-2021 23:10:22.694 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+28-07-2021 23:10:22.694 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.50]
+28-07-2021 23:10:22.768 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+28-07-2021 23:10:22.769 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1186 ms
+28-07-2021 23:10:23.391 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+28-07-2021 23:10:23.562 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+28-07-2021 23:10:34.888 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+28-07-2021 23:10:34.890 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+28-07-2021 23:10:34.892 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+28-07-2021 23:10:38.154 [http-nio-8080-exec-4] INFO  outbound-logs.getPostsPlainJSON - Getting Weather Information for ohio
+28-07-2021 23:10:38.154 [http-nio-8080-exec-4] INFO  outbound-logs.getPostsPlainJSON - Final URL => https://goweather.herokuapp.com/weather/ohio
+28-07-2021 23:10:40.098 [http-nio-8080-exec-4] INFO  outbound-logs.getPostsPlainJSON - Response => {"temperature":"+28 °C","wind":"13 km/h","description":"Partly cloudy","forecast":[{"day":"1","temperature":"+26 °C","wind":"12 km/h"},{"day":"2","temperature":"+23 °C","wind":"15 km/h"},{"day":"3","temperature":"19 °C","wind":"24 km/h"}]}
+29-07-2021 20:50:50.256 [http-nio-8080-exec-3] INFO  outbound-logs.getPostsPlainJSON - Getting Weather Information for ohio
+29-07-2021 20:50:50.257 [http-nio-8080-exec-3] INFO  outbound-logs.getPostsPlainJSON - Final URL => https://goweather.herokuapp.com/weather/ohio
+29-07-2021 20:50:52.526 [http-nio-8080-exec-3] INFO  outbound-logs.getPostsPlainJSON - Response => {"temperature":"+22 °C","wind":"11 km/h","description":"Sunny","forecast":[{"day":"1","temperature":"+25 °C","wind":"36 km/h"},{"day":"2","temperature":"+22 °C","wind":"18 km/h"},{"day":"3","temperature":"20 °C","wind":"10 km/h"}]}
+29-07-2021 20:54:45.924 [http-nio-8080-exec-8] INFO  outbound-logs.getPostsPlainJSON - Getting Weather Information for ohio
+29-07-2021 20:54:45.932 [http-nio-8080-exec-8] INFO  outbound-logs.getPostsPlainJSON - Final URL => https://goweather.herokuapp.com/weather/ohio
+29-07-2021 20:54:47.312 [http-nio-8080-exec-8] INFO  outbound-logs.getPostsPlainJSON - Response => {"temperature":"+22 °C","wind":"11 km/h","description":"Sunny","forecast":[{"day":"1","temperature":"+25 °C","wind":"36 km/h"},{"day":"2","temperature":"+22 °C","wind":"18 km/h"},{"day":"3","temperature":"20 °C","wind":"10 km/h"}]}
+29-07-2021 20:57:34.738 [http-nio-8080-exec-4] INFO  outbound-logs.getPostsPlainJSON - Getting Weather Information for ohio
+29-07-2021 20:57:34.738 [http-nio-8080-exec-4] INFO  outbound-logs.getPostsPlainJSON - Final URL => https://goweather.herokuapp.com/weather/ohio
+29-07-2021 20:57:38.440 [http-nio-8080-exec-4] INFO  outbound-logs.getPostsPlainJSON - Response => {"temperature":"+22 °C","wind":"11 km/h","description":"Sunny","forecast":[{"day":"1","temperature":"+25 °C","wind":"36 km/h"},{"day":"2","temperature":"+22 °C","wind":"18 km/h"},{"day":"3","temperature":"20 °C","wind":"10 km/h"}]}
+30-07-2021 22:15:36.630 [http-nio-8080-exec-4] INFO  outbound-logs.getPostsPlainJSON - Getting Weather Information for ohio
+30-07-2021 22:15:36.631 [http-nio-8080-exec-4] INFO  outbound-logs.getPostsPlainJSON - Final URL => https://goweather.herokuapp.com/weather/ohio
+30-07-2021 22:15:38.971 [http-nio-8080-exec-4] INFO  outbound-logs.getPostsPlainJSON - Response => {"temperature":"+24 °C","wind":"13 km/h","description":"Partly cloudy","forecast":[{"day":"1","temperature":"19 °C","wind":"17 km/h"},{"day":"2","temperature":"3 °C","wind":"12 km/h"},{"day":"3","temperature":" °C","wind":" km/h"}]}
+30-07-2021 23:32:50.977 [http-nio-8080-exec-4] INFO  outbound-logs.getPostsPlainJSON - Getting Weather Information for ohio
+30-07-2021 23:32:50.986 [http-nio-8080-exec-4] INFO  outbound-logs.getPostsPlainJSON - Final URL => https://goweather.herokuapp.com/weather/ohio
+30-07-2021 23:32:53.706 [http-nio-8080-exec-4] INFO  outbound-logs.getPostsPlainJSON - Response => {"temperature":"+24 °C","wind":"13 km/h","description":"Partly cloudy","forecast":[{"day":"1","temperature":"19 °C","wind":"17 km/h"},{"day":"2","temperature":"3 °C","wind":"12 km/h"},{"day":"3","temperature":" °C","wind":" km/h"}]}
+31-07-2021 00:06:01.569 [http-nio-8080-exec-8] INFO  outbound-logs.getPostsPlainJSON - Getting Weather Information for ohio
+31-07-2021 00:06:01.577 [http-nio-8080-exec-8] INFO  outbound-logs.getPostsPlainJSON - Final URL => https://goweather.herokuapp.com/weather/ohio
+31-07-2021 00:06:03.704 [http-nio-8080-exec-8] INFO  outbound-logs.getPostsPlainJSON - Response => {"temperature":"+26 °C","wind":"15 km/h","description":"Partly cloudy","forecast":[{"day":"1","temperature":"19 °C","wind":"17 km/h"},{"day":"2","temperature":"3 °C","wind":"12 km/h"},{"day":"3","temperature":" °C","wind":" km/h"}]}
+31-07-2021 00:08:38.154 [http-nio-8080-exec-4] INFO  outbound-logs.getPostsPlainJSON - Getting Weather Information for ohio
+31-07-2021 00:08:38.155 [http-nio-8080-exec-4] INFO  outbound-logs.getPostsPlainJSON - Final URL => https://goweather.herokuapp.com/weather/ohio
+31-07-2021 00:08:39.731 [http-nio-8080-exec-4] INFO  outbound-logs.getPostsPlainJSON - Response => {"temperature":"+26 °C","wind":"15 km/h","description":"Partly cloudy","forecast":[{"day":"1","temperature":"19 °C","wind":"17 km/h"},{"day":"2","temperature":"3 °C","wind":"12 km/h"},{"day":"3","temperature":" °C","wind":" km/h"}]}
+31-07-2021 00:11:48.046 [http-nio-8080-exec-9] INFO  outbound-logs.getPostsPlainJSON - Getting Weather Information for ohio
+31-07-2021 00:11:48.046 [http-nio-8080-exec-9] INFO  outbound-logs.getPostsPlainJSON - Final URL => https://goweather.herokuapp.com/weather/ohio
+31-07-2021 00:11:49.354 [http-nio-8080-exec-9] INFO  outbound-logs.getPostsPlainJSON - Response => {"temperature":"+26 °C","wind":"15 km/h","description":"Partly cloudy","forecast":[{"day":"1","temperature":"19 °C","wind":"17 km/h"},{"day":"2","temperature":"3 °C","wind":"12 km/h"},{"day":"3","temperature":" °C","wind":" km/h"}]}
+06-08-2021 23:05:44.211 [http-nio-8080-exec-3] INFO  outbound-logs.getPostsPlainJSON - Getting Weather Information for ohio
+06-08-2021 23:05:44.214 [http-nio-8080-exec-3] INFO  outbound-logs.getPostsPlainJSON - Final URL => https://goweather.herokuapp.com/weather/ohio
+06-08-2021 23:05:47.429 [http-nio-8080-exec-3] INFO  outbound-logs.getPostsPlainJSON - Response => {"temperature":"+28 °C","wind":"19 km/h","description":"Sunny","forecast":[{"day":"1","temperature":"+25 °C","wind":"19 km/h"},{"day":"2","temperature":"+26 °C","wind":"10 km/h"},{"day":"3","temperature":"27 °C","wind":"10 km/h"}]}
