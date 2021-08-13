@@ -22,7 +22,7 @@ public class ELKService {
         try {
             JSONParser parser = new JSONParser();
 
-            Object obj = parser.parse(new FileReader("D://Git Projects//Others//ELK Logs Monitoring//ELK//example-data.json"));
+            Object obj = parser.parse(new FileReader("D://Git Projects//ELK Logs Monitoring//ELK//example-data.json"));
             JSONObject jsonObject = (JSONObject) obj;
             foodDetail = (JSONArray) jsonObject.get("data");
 
