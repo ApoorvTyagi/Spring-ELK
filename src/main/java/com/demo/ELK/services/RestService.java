@@ -16,7 +16,7 @@ public class RestService {
 
     private static final Logger log = LoggerFactory.getLogger("outbound-logs");
 
-    private RestService(RestTemplateBuilder restTemplateBuilder) {
+    public RestService(RestTemplateBuilder restTemplateBuilder) {
         this.restTemplate = restTemplateBuilder.build();
     }
 
