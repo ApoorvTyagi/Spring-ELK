@@ -1,0 +1,59 @@
+{
+	"data": [
+		{
+			"id": 0,
+			"productName": "Fresh Avocados",
+			"image": "🥑",
+			"from": "Spain",
+			"nutrients": "Vitamin B, Vitamin K",
+			"quantity": "4 🥑",
+			"price": "6.50",
+			"organic": true,
+			"description": "A ripe avocado yields to gentle pressure when held in the palm of the hand and squeezed. "
+		},
+		{
+			"id": 1,
+			"productName": "Goat and Sheep Cheese",
+			"image": "🧀",
+			"from": "Portugal",
+			"nutrients": "Vitamin A, Calcium",
+			"quantity": "250g",
+			"price": "5.00",
+			"organic": false,
+			"description": "Creamy and distinct in flavor, goat cheese is a dairy product enjoyed around the world."
+		},
+		{
+			"id": 2,
+			"productName": "Apollo Broccoli",
+			"image": "🥦",
+			"from": "Portugal",
+			"nutrients": "Vitamin C, Vitamin K",
+			"quantity": "3 🥦",
+			"price": "5.50",
+			"organic": true,
+			"description": "Broccoli is known to be a hearty and tasty vegetable which is rich in dozens of nutrients."
+		},
+		{
+			"id": 3,
+			"productName": "Baby Carrots",
+			"image": "🥕",
+			"from": "France",
+			"nutrients": "Vitamin A, Vitamin K",
+			"quantity": "20 🥕",
+			"price": "3.00",
+			"organic": true,
+			"description": "The carrot is a root vegetable that is often claimed to be the perfect health food."
+		},
+		{
+			"id": 4,
+			"productName": "Sweet Corncobs",
+			"image": "🌽",
+			"from": "Germany",
+			"nutrients": "Vitamin C, Magnesium",
+			"quantity": "2 🌽",
+			"price": "2.00",
+			"organic": false,
+			"description": "Also known as maize, corn is one of the most popular cereal grains in the world."
+		}
+	]
+}
