@@ -1,4 +1,4 @@
 # Spring-ELK
 Spring Boot logs aggregation and monitoring with ELK stack
 
-How to use Elastic Stack along to collect, process, store, index and visualize logs of Spring Boot microservices.
+Java code for how you can integrate ELK stack with your Spring Boot application for logs aggregation and monitoring in a centralized way. 
